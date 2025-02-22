@@ -1,0 +1,1960 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Telegram</v8:content>
+		</v8:item>
+	</Title>
+	<Width>140</Width>
+	<EnterKeyBehavior>DefaultButton</EnterKeyBehavior>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<HorizontalSpacing>Half</HorizontalSpacing>
+	<VerticalSpacing>Half</VerticalSpacing>
+	<AutoFillCheck>false</AutoFillCheck>
+	<CommandBarLocation>None</CommandBarLocation>
+	<ScalingMode>Normal</ScalingMode>
+	<ConversationsRepresentation>DontShow</ConversationsRepresentation>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OpenFromMainServer</ExcludedCommand>
+		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<CollapseItemsByImportanceVariant>DontUse</CollapseItemsByImportanceVariant>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ОсновнаяГруппа" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОсновнаяГруппаРасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаСтраницыАктивные" id="453">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свернуть</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>#07689F</TitleTextColor>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страницы активные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<HorizontalSpacing>None</HorizontalSpacing>
+					<VerticalSpacing>None</VerticalSpacing>
+					<Behavior>Collapsible</Behavior>
+					<CollapsedRepresentationTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Развернуть</v8:content>
+						</v8:item>
+					</CollapsedRepresentationTitle>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<ExtendedTooltip name="ГруппаСтраницыАктивныеРасширеннаяПодсказка" id="454"/>
+					<ChildItems>
+						<UsualGroup name="ЛеваяГруппа" id="35">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Левая группа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Width>50</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+							<GroupVerticalAlign>Top</GroupVerticalAlign>
+							<Group>Vertical</Group>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<VerticalAlign>Top</VerticalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ЛеваяГруппаРасширеннаяПодсказка" id="36"/>
+							<ChildItems>
+								<Pages name="СтраницыЧаты" id="285">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы чаты</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Страницы чаты</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<HorizontalStretch>true</HorizontalStretch>
+									<PagesRepresentation>TabsOnLeftHorizontal</PagesRepresentation>
+									<ExtendedTooltip name="СтраницыЧатыРасширеннаяПодсказка" id="286"/>
+									<Events>
+										<Event name="OnCurrentPageChange">СтраницыЧатыПриСменеСтраницы</Event>
+									</Events>
+									<ChildItems>
+										<Page name="СтраницаАктивныеЧаты" id="287">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Активные</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<Picture>
+												<xr:Ref>CommonPicture.Чаты</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ShowTitle>false</ShowTitle>
+											<BackColor>style:FormBackColor</BackColor>
+											<ExtendedTooltip name="СтраницаАктивныеЧатыРасширеннаяПодсказка" id="288"/>
+											<ChildItems>
+												<Table name="ЧатыАктивные" id="293">
+													<Representation>List</Representation>
+													<CommandBarLocation>Top</CommandBarLocation>
+													<ReadOnly>true</ReadOnly>
+													<ChangeRowSet>false</ChangeRowSet>
+													<ChangeRowOrder>false</ChangeRowOrder>
+													<SelectionMode>SingleRow</SelectionMode>
+													<RowSelectionMode>Row</RowSelectionMode>
+													<Header>false</Header>
+													<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+													<VerticalScrollBar>UseAlways</VerticalScrollBar>
+													<HorizontalLines>false</HorizontalLines>
+													<VerticalLines>false</VerticalLines>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<AutoAddIncomplete>false</AutoAddIncomplete>
+													<AutoMarkIncomplete>false</AutoMarkIncomplete>
+													<SearchOnInput>Use</SearchOnInput>
+													<InitialListView>Beginning</InitialListView>
+													<Output>Disable</Output>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>ЧатыАктивные</DataPath>
+													<RowPictureDataPath>ЧатыАктивные.Аватар</RowPictureDataPath>
+													<RowsPicture>
+														<xr:Ref>CommonPicture.bot_ea_Люди</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</RowsPicture>
+													<BackColor>style:FormBackColor</BackColor>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<CommandSet>
+														<ExcludedCommand>Add</ExcludedCommand>
+														<ExcludedCommand>CancelSearch</ExcludedCommand>
+														<ExcludedCommand>Change</ExcludedCommand>
+														<ExcludedCommand>Copy</ExcludedCommand>
+														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>EndEdit</ExcludedCommand>
+														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+														<ExcludedCommand>MoveDown</ExcludedCommand>
+														<ExcludedCommand>MoveUp</ExcludedCommand>
+														<ExcludedCommand>OutputList</ExcludedCommand>
+														<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+														<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+														<ExcludedCommand>SortListAsc</ExcludedCommand>
+														<ExcludedCommand>SortListDesc</ExcludedCommand>
+													</CommandSet>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<SearchStringLocation>None</SearchStringLocation>
+													<ViewStatusLocation>None</ViewStatusLocation>
+													<SearchControlLocation>None</SearchControlLocation>
+													<CurrentRowUse>Choice</CurrentRowUse>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ЧатыАктивныеКонтекстноеМеню" id="294">
+														<Autofill>false</Autofill>
+														<ChildItems>
+															<Button name="ЧатыАктивныеКонтекстноеМенюЧатыПоместитьВАрхив" id="394">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыПоместитьВАрхив</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Архивировать</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ЧатыАктивныеКонтекстноеМенюЧатыПоместитьВАрхивРасширеннаяПодсказка" id="395"/>
+															</Button>
+															<Button name="ЧатыАктивныеКонтекстноеМенюЧатыЗаблокировать" id="396">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыЗаблокировать</CommandName>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Заблокировать</v8:content>
+																	</v8:item>
+																</Title>
+																<ExtendedTooltip name="ЧатыАктивныеКонтекстноеМенюЧатыЗаблокироватьРасширеннаяПодсказка" id="397"/>
+															</Button>
+														</ChildItems>
+													</ContextMenu>
+													<AutoCommandBar name="ЧатыАктивныеКоманднаяПанель" id="295">
+														<HorizontalAlign>Right</HorizontalAlign>
+														<Autofill>false</Autofill>
+														<ChildItems>
+															<Button name="НовыйЧат" id="101">
+																<Type>CommandBarButton</Type>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ЧатыСоздатьЧат</CommandName>
+																<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+																<Picture>
+																	<xr:Ref>CommonPicture.Добавить</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Новый Чат</v8:content>
+																	</v8:item>
+																</Title>
+																<Shape>Oval</Shape>
+																<ShapeRepresentation>Always</ShapeRepresentation>
+																<ExtendedTooltip name="НовыйЧатРасширеннаяПодсказка" id="102"/>
+															</Button>
+															<Button name="ЧатыОбновитьАктивные" id="434">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыОбновитьАктивные</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.Refresh</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Shape>Oval</Shape>
+																<ShapeRepresentation>Always</ShapeRepresentation>
+																<ExtendedTooltip name="ЧатыОбновитьАктивныеРасширеннаяПодсказка" id="435"/>
+															</Button>
+															<Button name="КнопкаСправка" id="455">
+																<Type>CommandBarButton</Type>
+																<Visible>false</Visible>
+																<Representation>PictureAndText</Representation>
+																<CommandName>Form.Command.ЧатыОткрытьСправку</CommandName>
+																<Picture>
+																	<xr:Ref>CommonPicture.СправкаТелеграмм</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Справка</v8:content>
+																	</v8:item>
+																</Title>
+																<Shape>Oval</Shape>
+																<ShapeRepresentation>Always</ShapeRepresentation>
+																<PictureLocation>Left</PictureLocation>
+																<ExtendedTooltip name="КнопкаСправкаРасширеннаяПодсказка" id="456"/>
+															</Button>
+														</ChildItems>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ЧатыАктивныеРасширеннаяПодсказка" id="296"/>
+													<SearchStringAddition name="ЧатыАктивныеСтрокаПоиска" id="297">
+														<AdditionSource>
+															<Item>ЧатыАктивные</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<BorderColor>style:FormBackColor</BorderColor>
+														<ContextMenu name="ЧатыАктивныеСтрокаПоискаКонтекстноеМеню" id="298"/>
+														<ExtendedTooltip name="ЧатыАктивныеСтрокаПоискаРасширеннаяПодсказка" id="299"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ЧатыАктивныеСостояниеПросмотра" id="300">
+														<AdditionSource>
+															<Item>ЧатыАктивные</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыАктивныеСостояниеПросмотраКонтекстноеМеню" id="301"/>
+														<ExtendedTooltip name="ЧатыАктивныеСостояниеПросмотраРасширеннаяПодсказка" id="302"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ЧатыАктивныеУправлениеПоиском" id="303">
+														<AdditionSource>
+															<Item>ЧатыАктивные</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыАктивныеУправлениеПоискомКонтекстноеМеню" id="304"/>
+														<ExtendedTooltip name="ЧатыАктивныеУправлениеПоискомРасширеннаяПодсказка" id="305"/>
+													</SearchControlAddition>
+													<Events>
+														<Event name="Selection">ЧатыАктивныеВыбор</Event>
+														<Event name="OnActivateRow">ЧатыАктивныеПриАктивизацииСтроки</Event>
+													</Events>
+													<ChildItems>
+														<PictureField name="ЧатыАктивныеАватар" id="356">
+															<DataPath>ЧатыАктивные.Аватар</DataPath>
+															<TitleLocation>None</TitleLocation>
+															<ToolTipRepresentation>None</ToolTipRepresentation>
+															<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+															<EditMode>EnterOnInput</EditMode>
+															<ShowInHeader>false</ShowInHeader>
+															<ShowInFooter>false</ShowInFooter>
+															<Width>1</Width>
+															<Height>1</Height>
+															<PictureSize>AutoSize</PictureSize>
+															<ValuesPicture>
+																<xr:Ref>CommonPicture.bot_ea_Люди</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</ValuesPicture>
+															<BorderColor>style:FormBackColor</BorderColor>
+															<Border width="1">
+																<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+															</Border>
+															<ContextMenu name="ЧатыАктивныеАватарКонтекстноеМеню" id="357"/>
+															<ExtendedTooltip name="ЧатыАктивныеАватарРасширеннаяПодсказка" id="358"/>
+														</PictureField>
+														<ColumnGroup name="ЧатыАктивныеГруппаКонтактКонтрагент" id="386">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты активные группа контакт контрагент</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты активные группа контакт контрагент</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ExtendedTooltip name="ЧатыАктивныеГруппаКонтактКонтрагентРасширеннаяПодсказка" id="387"/>
+															<ChildItems>
+																<LabelField name="ЧатыАктивныеКонтактноеЛицо" id="350">
+																	<DataPath>ЧатыАктивные.КонтактноеЛицо</DataPath>
+																	<TitleLocation>None</TitleLocation>
+																	<ToolTipRepresentation>None</ToolTipRepresentation>
+																	<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
+																	<EditMode>EnterOnInput</EditMode>
+																	<ShowInHeader>false</ShowInHeader>
+																	<ShowInFooter>false</ShowInFooter>
+																	<BorderColor>style:FormBackColor</BorderColor>
+																	<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыАктивныеКонтактноеЛицоКонтекстноеМеню" id="351"/>
+																	<ExtendedTooltip name="ЧатыАктивныеКонтактноеЛицоРасширеннаяПодсказка" id="352"/>
+																</LabelField>
+																<LabelField name="ЧатыАктивныеКонтрагент" id="353">
+																	<DataPath>ЧатыАктивные.Контрагент</DataPath>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<EditMode>EnterOnInput</EditMode>
+																	<TextColor>style:BorderColor</TextColor>
+																	<Font ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыАктивныеКонтрагентКонтекстноеМеню" id="354"/>
+																	<ExtendedTooltip name="ЧатыАктивныеКонтрагентРасширеннаяПодсказка" id="355"/>
+																</LabelField>
+															</ChildItems>
+														</ColumnGroup>
+														<LabelField name="ЧатыАктивныеНовыхСообщений" id="359">
+															<DataPath>ЧатыАктивные.НовыхСообщений</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ЧатыАктивныеНовыхСообщенийКонтекстноеМеню" id="360"/>
+															<ExtendedTooltip name="ЧатыАктивныеНовыхСообщенийРасширеннаяПодсказка" id="361"/>
+														</LabelField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаАрхивныеЧаты" id="289">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Архивные</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<Picture>
+												<xr:Ref>CommonPicture.Архив</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СтраницаАрхивныеЧатыРасширеннаяПодсказка" id="290"/>
+											<ChildItems>
+												<Table name="ЧатыАрхивные" id="312">
+													<Representation>List</Representation>
+													<CommandBarLocation>Top</CommandBarLocation>
+													<ChangeRowSet>false</ChangeRowSet>
+													<ChangeRowOrder>false</ChangeRowOrder>
+													<SelectionMode>SingleRow</SelectionMode>
+													<RowSelectionMode>Row</RowSelectionMode>
+													<Header>false</Header>
+													<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+													<VerticalScrollBar>UseAlways</VerticalScrollBar>
+													<HorizontalLines>false</HorizontalLines>
+													<VerticalLines>false</VerticalLines>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<AutoAddIncomplete>false</AutoAddIncomplete>
+													<AutoMarkIncomplete>false</AutoMarkIncomplete>
+													<SearchOnInput>Use</SearchOnInput>
+													<InitialListView>Beginning</InitialListView>
+													<Output>Disable</Output>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>ЧатыАрхивные</DataPath>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<CommandSet>
+														<ExcludedCommand>Add</ExcludedCommand>
+														<ExcludedCommand>CancelSearch</ExcludedCommand>
+														<ExcludedCommand>Change</ExcludedCommand>
+														<ExcludedCommand>Copy</ExcludedCommand>
+														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>EndEdit</ExcludedCommand>
+														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+														<ExcludedCommand>MoveDown</ExcludedCommand>
+														<ExcludedCommand>MoveUp</ExcludedCommand>
+														<ExcludedCommand>OutputList</ExcludedCommand>
+														<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+														<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+														<ExcludedCommand>SortListAsc</ExcludedCommand>
+														<ExcludedCommand>SortListDesc</ExcludedCommand>
+													</CommandSet>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<SearchStringLocation>None</SearchStringLocation>
+													<ViewStatusLocation>None</ViewStatusLocation>
+													<SearchControlLocation>None</SearchControlLocation>
+													<CurrentRowUse>Choice</CurrentRowUse>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ЧатыАрхивныеКонтекстноеМеню" id="313">
+														<ChildItems>
+															<Button name="ЧатыАрхивныеКонтекстноеМенюЧатыВернутьИзАрхива" id="398">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыВернутьИзАрхива</CommandName>
+																<ExtendedTooltip name="ЧатыАрхивныеКонтекстноеМенюЧатыВернутьИзАрхиваРасширеннаяПодсказка" id="399"/>
+															</Button>
+														</ChildItems>
+													</ContextMenu>
+													<AutoCommandBar name="ЧатыАрхивныеКоманднаяПанель" id="314">
+														<HorizontalAlign>Right</HorizontalAlign>
+														<ChildItems>
+															<Button name="ЧатыОбновитьАрхивные" id="436">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыОбновитьАрхивные</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.Refresh</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Shape>Oval</Shape>
+																<ShapeRepresentation>Always</ShapeRepresentation>
+																<ExtendedTooltip name="ЧатыОбновитьАрхивныеРасширеннаяПодсказка" id="437"/>
+															</Button>
+														</ChildItems>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ЧатыАрхивныеРасширеннаяПодсказка" id="315"/>
+													<SearchStringAddition name="ЧатыАрхивныеСтрокаПоиска" id="316">
+														<AdditionSource>
+															<Item>ЧатыАрхивные</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<BorderColor>style:FormBackColor</BorderColor>
+														<ContextMenu name="ЧатыАрхивныеСтрокаПоискаКонтекстноеМеню" id="317"/>
+														<ExtendedTooltip name="ЧатыАрхивныеСтрокаПоискаРасширеннаяПодсказка" id="318"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ЧатыАрхивныеСостояниеПросмотра" id="319">
+														<AdditionSource>
+															<Item>ЧатыАрхивные</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыАрхивныеСостояниеПросмотраКонтекстноеМеню" id="320"/>
+														<ExtendedTooltip name="ЧатыАрхивныеСостояниеПросмотраРасширеннаяПодсказка" id="321"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ЧатыАрхивныеУправлениеПоиском" id="322">
+														<AdditionSource>
+															<Item>ЧатыАрхивные</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыАрхивныеУправлениеПоискомКонтекстноеМеню" id="323"/>
+														<ExtendedTooltip name="ЧатыАрхивныеУправлениеПоискомРасширеннаяПодсказка" id="324"/>
+													</SearchControlAddition>
+													<Events>
+														<Event name="Selection">ЧатыАрхивныеВыбор</Event>
+														<Event name="OnActivateRow">ЧатыАрхивныеПриАктивизацииСтроки</Event>
+													</Events>
+													<ChildItems>
+														<PictureField name="ЧатыАрхивныеАватар" id="368">
+															<DataPath>ЧатыАрхивные.Аватар</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ЧатыАрхивныеАватарКонтекстноеМеню" id="369"/>
+															<ExtendedTooltip name="ЧатыАрхивныеАватарРасширеннаяПодсказка" id="370"/>
+														</PictureField>
+														<ColumnGroup name="ЧатыАрхивныеГруппаКонтактКонтрагент" id="388">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты архивные группа контакт контрагент</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты архивные группа контакт контрагент</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ExtendedTooltip name="ЧатыАрхивныеГруппаКонтактКонтрагентРасширеннаяПодсказка" id="389"/>
+															<ChildItems>
+																<LabelField name="ЧатыАрхивныеКонтактноеЛицо" id="362">
+																	<DataPath>ЧатыАрхивные.КонтактноеЛицо</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыАрхивныеКонтактноеЛицоКонтекстноеМеню" id="363"/>
+																	<ExtendedTooltip name="ЧатыАрхивныеКонтактноеЛицоРасширеннаяПодсказка" id="364"/>
+																</LabelField>
+																<LabelField name="ЧатыАрхивныеКонтрагент" id="365">
+																	<DataPath>ЧатыАрхивные.Контрагент</DataPath>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыАрхивныеКонтрагентКонтекстноеМеню" id="366"/>
+																	<ExtendedTooltip name="ЧатыАрхивныеКонтрагентРасширеннаяПодсказка" id="367"/>
+																</LabelField>
+															</ChildItems>
+														</ColumnGroup>
+														<LabelField name="ЧатыАрхивныеНовыхСообщений" id="371">
+															<DataPath>ЧатыАрхивные.НовыхСообщений</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ЧатыАрхивныеНовыхСообщенийКонтекстноеМеню" id="372"/>
+															<ExtendedTooltip name="ЧатыАрхивныеНовыхСообщенийРасширеннаяПодсказка" id="373"/>
+														</LabelField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаЗаблокированныеЧаты" id="291">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заблокированные</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<Picture>
+												<xr:Ref>CommonPicture.Блок</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СтраницаЗаблокированныеЧатыРасширеннаяПодсказка" id="292"/>
+											<ChildItems>
+												<Table name="ЧатыЗаблокированные" id="331">
+													<Representation>List</Representation>
+													<CommandBarLocation>Top</CommandBarLocation>
+													<ChangeRowSet>false</ChangeRowSet>
+													<ChangeRowOrder>false</ChangeRowOrder>
+													<SelectionMode>SingleRow</SelectionMode>
+													<RowSelectionMode>Row</RowSelectionMode>
+													<Header>false</Header>
+													<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+													<VerticalScrollBar>UseAlways</VerticalScrollBar>
+													<HorizontalLines>false</HorizontalLines>
+													<VerticalLines>false</VerticalLines>
+													<AutoInsertNewRow>true</AutoInsertNewRow>
+													<AutoAddIncomplete>false</AutoAddIncomplete>
+													<AutoMarkIncomplete>false</AutoMarkIncomplete>
+													<SearchOnInput>Use</SearchOnInput>
+													<InitialListView>Beginning</InitialListView>
+													<Output>Disable</Output>
+													<EnableStartDrag>true</EnableStartDrag>
+													<EnableDrag>true</EnableDrag>
+													<DataPath>ЧатыЗаблокированные</DataPath>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<CommandSet>
+														<ExcludedCommand>Add</ExcludedCommand>
+														<ExcludedCommand>CancelSearch</ExcludedCommand>
+														<ExcludedCommand>Change</ExcludedCommand>
+														<ExcludedCommand>Copy</ExcludedCommand>
+														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>EndEdit</ExcludedCommand>
+														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+														<ExcludedCommand>MoveDown</ExcludedCommand>
+														<ExcludedCommand>MoveUp</ExcludedCommand>
+														<ExcludedCommand>OutputList</ExcludedCommand>
+														<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+														<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+														<ExcludedCommand>SortListAsc</ExcludedCommand>
+														<ExcludedCommand>SortListDesc</ExcludedCommand>
+													</CommandSet>
+													<ToolTipRepresentation>None</ToolTipRepresentation>
+													<SearchStringLocation>None</SearchStringLocation>
+													<ViewStatusLocation>None</ViewStatusLocation>
+													<SearchControlLocation>None</SearchControlLocation>
+													<CurrentRowUse>Choice</CurrentRowUse>
+													<RowFilter xsi:nil="true"/>
+													<ContextMenu name="ЧатыЗаблокированныеКонтекстноеМеню" id="332">
+														<ChildItems>
+															<Button name="ЧатыЗаблокированныеКонтекстноеМенюЧатыРазблокировать" id="400">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыРазблокировать</CommandName>
+																<ExtendedTooltip name="ЧатыЗаблокированныеКонтекстноеМенюЧатыРазблокироватьРасширеннаяПодсказка" id="401"/>
+															</Button>
+														</ChildItems>
+													</ContextMenu>
+													<AutoCommandBar name="ЧатыЗаблокированныеКоманднаяПанель" id="333">
+														<HorizontalAlign>Right</HorizontalAlign>
+														<ChildItems>
+															<Button name="ЧатыОбновитьЗаблокированные" id="438">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ЧатыОбновитьЗаблокированные</CommandName>
+																<Picture>
+																	<xr:Ref>StdPicture.Refresh</xr:Ref>
+																	<xr:LoadTransparent>true</xr:LoadTransparent>
+																</Picture>
+																<Shape>Oval</Shape>
+																<ShapeRepresentation>Always</ShapeRepresentation>
+																<ExtendedTooltip name="ЧатыОбновитьЗаблокированныеРасширеннаяПодсказка" id="439"/>
+															</Button>
+														</ChildItems>
+													</AutoCommandBar>
+													<ExtendedTooltip name="ЧатыЗаблокированныеРасширеннаяПодсказка" id="334"/>
+													<SearchStringAddition name="ЧатыЗаблокированныеСтрокаПоиска" id="335">
+														<AdditionSource>
+															<Item>ЧатыЗаблокированные</Item>
+															<Type>SearchStringRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыЗаблокированныеСтрокаПоискаКонтекстноеМеню" id="336"/>
+														<ExtendedTooltip name="ЧатыЗаблокированныеСтрокаПоискаРасширеннаяПодсказка" id="337"/>
+													</SearchStringAddition>
+													<ViewStatusAddition name="ЧатыЗаблокированныеСостояниеПросмотра" id="338">
+														<AdditionSource>
+															<Item>ЧатыЗаблокированные</Item>
+															<Type>ViewStatusRepresentation</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыЗаблокированныеСостояниеПросмотраКонтекстноеМеню" id="339"/>
+														<ExtendedTooltip name="ЧатыЗаблокированныеСостояниеПросмотраРасширеннаяПодсказка" id="340"/>
+													</ViewStatusAddition>
+													<SearchControlAddition name="ЧатыЗаблокированныеУправлениеПоиском" id="341">
+														<AdditionSource>
+															<Item>ЧатыЗаблокированные</Item>
+															<Type>SearchControl</Type>
+														</AdditionSource>
+														<ContextMenu name="ЧатыЗаблокированныеУправлениеПоискомКонтекстноеМеню" id="342"/>
+														<ExtendedTooltip name="ЧатыЗаблокированныеУправлениеПоискомРасширеннаяПодсказка" id="343"/>
+													</SearchControlAddition>
+													<Events>
+														<Event name="Selection">ЧатыЗаблокированныеВыбор</Event>
+														<Event name="OnActivateRow">ЧатыЗаблокированныеПриАктивизацииСтроки</Event>
+													</Events>
+													<ChildItems>
+														<PictureField name="ЧатыЗаблокированныеАватар" id="380">
+															<DataPath>ЧатыЗаблокированные.Аватар</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ЧатыЗаблокированныеАватарКонтекстноеМеню" id="381"/>
+															<ExtendedTooltip name="ЧатыЗаблокированныеАватарРасширеннаяПодсказка" id="382"/>
+														</PictureField>
+														<ColumnGroup name="ЧатыЗаблокированныеГруппаКонтактКонтрагент" id="390">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты заблокированные группа контакт контрагент</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Чаты заблокированные группа контакт контрагент</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ExtendedTooltip name="ЧатыЗаблокированныеГруппаКонтактКонтрагентРасширеннаяПодсказка" id="391"/>
+															<ChildItems>
+																<LabelField name="ЧатыЗаблокированныеКонтактноеЛицо" id="374">
+																	<DataPath>ЧатыЗаблокированные.КонтактноеЛицо</DataPath>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыЗаблокированныеКонтактноеЛицоКонтекстноеМеню" id="375"/>
+																	<ExtendedTooltip name="ЧатыЗаблокированныеКонтактноеЛицоРасширеннаяПодсказка" id="376"/>
+																</LabelField>
+																<LabelField name="ЧатыЗаблокированныеКонтрагент" id="377">
+																	<DataPath>ЧатыЗаблокированные.Контрагент</DataPath>
+																	<HorizontalAlign>Right</HorizontalAlign>
+																	<EditMode>EnterOnInput</EditMode>
+																	<Font ref="style:NormalTextFont" height="10" kind="StyleItem" scale="100"/>
+																	<ContextMenu name="ЧатыЗаблокированныеКонтрагентКонтекстноеМеню" id="378"/>
+																	<ExtendedTooltip name="ЧатыЗаблокированныеКонтрагентРасширеннаяПодсказка" id="379"/>
+																</LabelField>
+															</ChildItems>
+														</ColumnGroup>
+														<LabelField name="ЧатыЗаблокированныеНовыхСообщений" id="383">
+															<DataPath>ЧатыЗаблокированные.НовыхСообщений</DataPath>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ЧатыЗаблокированныеНовыхСообщенийКонтекстноеМеню" id="384"/>
+															<ExtendedTooltip name="ЧатыЗаблокированныеНовыхСообщенийРасширеннаяПодсказка" id="385"/>
+														</LabelField>
+													</ChildItems>
+												</Table>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаНастройка" id="392">
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Настройки</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<Picture>
+												<xr:Ref>CommonPicture.Настройки</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СтраницаНастройкаРасширеннаяПодсказка" id="393"/>
+											<ChildItems>
+												<InputField name="ВыбранныйБот" id="164">
+													<DataPath>ВыбранныйБот</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Бот</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<ContextMenu name="ВыбранныйБотКонтекстноеМеню" id="165"/>
+													<ExtendedTooltip name="ВыбранныйБотРасширеннаяПодсказка" id="166"/>
+												</InputField>
+												<InputField name="ВыбранныйЧат" id="445">
+													<DataPath>ВыбранныйЧат</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Чат</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<ContextMenu name="ВыбранныйЧатКонтекстноеМеню" id="446"/>
+													<ExtendedTooltip name="ВыбранныйЧатРасширеннаяПодсказка" id="447"/>
+												</InputField>
+												<InputField name="Пользователь" id="448">
+													<DataPath>Пользователь</DataPath>
+													<TitleLocation>None</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пользователь</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<ContextMenu name="ПользовательКонтекстноеМеню" id="449"/>
+													<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="450"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="СтраницаСправка" id="432">
+											<Visible>false</Visible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница справка</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Справка</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
+											<Picture>
+												<xr:Ref>CommonPicture.СправкаТелеграмм</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СтраницаСправкаРасширеннаяПодсказка" id="433"/>
+											<ChildItems>
+												<HTMLDocumentField name="Справка" id="440">
+													<DataPath>Справка</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<TitleLocation>None</TitleLocation>
+													<BorderColor>style:FormBackColor</BorderColor>
+													<ContextMenu name="СправкаКонтекстноеМеню" id="441"/>
+													<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="442"/>
+												</HTMLDocumentField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ПраваяГруппа" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая группа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПраваяГруппаРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<UsualGroup name="ШапкаЧата" id="151">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка чата</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Шапка чата</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Group>AlwaysHorizontal</Group>
+							<HorizontalSpacing>None</HorizontalSpacing>
+							<VerticalSpacing>None</VerticalSpacing>
+							<HorizontalAlign>Left</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<BackColor>#07689F</BackColor>
+							<ExtendedTooltip name="ШапкаЧатаРасширеннаяПодсказка" id="152"/>
+							<ChildItems>
+								<PictureField name="Аватар" id="262">
+									<DataPath>ВыбранныйЧат.Контакт.Аватар</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Width>12</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>4</Height>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<PictureSize>AutoSize</PictureSize>
+									<ValuesPicture>
+										<xr:Ref>CommonPicture.bot_ea_Люди</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:TransparentPixel x="4262" y="86"/>
+									</ValuesPicture>
+									<Border width="1">
+										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+									</Border>
+									<ContextMenu name="АватарКонтекстноеМеню" id="263"/>
+									<ExtendedTooltip name="АватарРасширеннаяПодсказка" id="264"/>
+								</PictureField>
+								<UsualGroup name="КонтактИКонтрагент" id="271">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контакт и контрагент</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контакт и контрагент</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+									<Group>Vertical</Group>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="КонтактИКонтрагентРасширеннаяПодсказка" id="272"/>
+									<ChildItems>
+										<LabelField name="ТекущийКонтакт" id="265">
+											<DataPath>ВыбранныйЧат.Контакт.КонтактноеЛицо</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+											<Hiperlink>true</Hiperlink>
+											<TextColor>style:FormBackColor</TextColor>
+											<BackColor>#07689F</BackColor>
+											<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ТекущийКонтактКонтекстноеМеню" id="266"/>
+											<ExtendedTooltip name="ТекущийКонтактРасширеннаяПодсказка" id="267"/>
+											<Events>
+												<Event name="Click">ТекущийКонтактНажатие</Event>
+											</Events>
+										</LabelField>
+										<LabelField name="ТекущийКонтрагент" id="268">
+											<DataPath>ВыбранныйЧат.Контакт.Контрагент</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+											<TextColor>web:Gainsboro</TextColor>
+											<BackColor>#07689F</BackColor>
+											<Font ref="style:NormalTextFont" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ТекущийКонтрагентКонтекстноеМеню" id="269"/>
+											<ExtendedTooltip name="ТекущийКонтрагентРасширеннаяПодсказка" id="270"/>
+											<Events>
+												<Event name="Click">ТекущийКонтрагентНажатие</Event>
+											</Events>
+										</LabelField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ТекущийЧат" id="443">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текущий чат</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Текущий чат</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ТекущийЧатРасширеннаяПодсказка" id="444"/>
+							<ChildItems>
+								<Table name="ЧатАктивный" id="402">
+									<Representation>List</Representation>
+									<CommandBarLocation>None</CommandBarLocation>
+									<ReadOnly>true</ReadOnly>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<SelectionMode>SingleRow</SelectionMode>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<Header>false</Header>
+									<HorizontalScrollBar>DontUse</HorizontalScrollBar>
+									<VerticalScrollBar>UseAlways</VerticalScrollBar>
+									<HorizontalLines>false</HorizontalLines>
+									<VerticalLines>false</VerticalLines>
+									<AutoAddIncomplete>false</AutoAddIncomplete>
+									<AutoMarkIncomplete>false</AutoMarkIncomplete>
+									<SearchOnInput>Use</SearchOnInput>
+									<InitialListView>End</InitialListView>
+									<Output>Enable</Output>
+									<DataPath>ЧатАктивный</DataPath>
+									<RowPictureDataPath>ЧатАктивный.ВидСообщения</RowPictureDataPath>
+									<BackColor>style:FormBackColor</BackColor>
+									<BorderColor>#F8F8FF</BorderColor>
+									<Font ref="style:NormalTextFont" faceName="Georgia" height="12" kind="StyleItem" scale="100"/>
+									<CommandSet>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>CancelSearch</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>Find</ExcludedCommand>
+										<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+										<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+									</CommandSet>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<SearchStringLocation>Top</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RefreshRequest>PullFromTopOrBottom</RefreshRequest>
+									<CurrentRowUse>SelectionPresentation</CurrentRowUse>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ЧатАктивныйКонтекстноеМеню" id="403">
+										<ChildItems>
+											<Button name="ЧатАктивныйКонтекстноеМенюЧатСоздатьСобытие" id="451">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ЧатСоздатьСобытие</CommandName>
+												<ExtendedTooltip name="ЧатАктивныйКонтекстноеМенюЧатСоздатьСобытиеРасширеннаяПодсказка" id="452"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<AutoCommandBar name="ЧатАктивныйКоманднаяПанель" id="404"/>
+									<ExtendedTooltip name="ЧатАктивныйРасширеннаяПодсказка" id="405"/>
+									<SearchStringAddition name="ЧатАктивныйСтрокаПоиска" id="406">
+										<ToolTipRepresentation>None</ToolTipRepresentation>
+										<AdditionSource>
+											<Item>ЧатАктивный</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<BackColor>style:FormBackColor</BackColor>
+										<BorderColor>style:FormBackColor</BorderColor>
+										<ContextMenu name="ЧатАктивныйСтрокаПоискаКонтекстноеМеню" id="407"/>
+										<ExtendedTooltip name="ЧатАктивныйСтрокаПоискаРасширеннаяПодсказка" id="408"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ЧатАктивныйСостояниеПросмотра" id="409">
+										<AdditionSource>
+											<Item>ЧатАктивный</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЧатАктивныйСостояниеПросмотраКонтекстноеМеню" id="410"/>
+										<ExtendedTooltip name="ЧатАктивныйСостояниеПросмотраРасширеннаяПодсказка" id="411"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ЧатАктивныйУправлениеПоиском" id="412">
+										<AdditionSource>
+											<Item>ЧатАктивный</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ЧатАктивныйУправлениеПоискомКонтекстноеМеню" id="413"/>
+										<ExtendedTooltip name="ЧатАктивныйУправлениеПоискомРасширеннаяПодсказка" id="414"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="Selection">ЧатАктивныйВыбор</Event>
+									</Events>
+									<ChildItems>
+										<ColumnGroup name="ЧатАктивныйГруппаАвторИСообщение" id="430">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Чат активный группа автор и сообщение</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Чат активный группа автор и сообщение</v8:content>
+												</v8:item>
+											</ToolTip>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<ExtendedTooltip name="ЧатАктивныйГруппаАвторИСообщениеРасширеннаяПодсказка" id="431"/>
+											<ChildItems>
+												<LabelField name="ЧатАктивныйАвтор" id="418">
+													<DataPath>ЧатАктивный.Автор</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<TextColor>style:BorderColor</TextColor>
+													<Font ref="style:NormalTextFont" faceName="Tahoma" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+													<ContextMenu name="ЧатАктивныйАвторКонтекстноеМеню" id="419"/>
+													<ExtendedTooltip name="ЧатАктивныйАвторРасширеннаяПодсказка" id="420"/>
+												</LabelField>
+												<InputField name="ЧатАктивныйСообщение" id="421">
+													<DataPath>ЧатАктивный.Сообщение</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<HorizontalAlign>Left</HorizontalAlign>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoCellHeight>true</AutoCellHeight>
+													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+													<Height>20</Height>
+													<HorizontalStretch>true</HorizontalStretch>
+													<VerticalStretch>true</VerticalStretch>
+													<MultiLine>true</MultiLine>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<Font ref="style:NormalTextFont" faceName="Tahoma" height="10" kind="StyleItem" scale="100"/>
+													<ContextMenu name="ЧатАктивныйСообщениеКонтекстноеМеню" id="422"/>
+													<ExtendedTooltip name="ЧатАктивныйСообщениеРасширеннаяПодсказка" id="423"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+										<LabelField name="ЧатАктивныйФайл" id="427">
+											<DataPath>ЧатАктивный.ПрисоединенныйФайл</DataPath>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<VerticalAlign>Bottom</VerticalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+											<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="true" strikeout="false" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ЧатАктивныйФайлКонтекстноеМеню" id="428"/>
+											<ExtendedTooltip name="ЧатАктивныйФайлРасширеннаяПодсказка" id="429"/>
+										</LabelField>
+										<LabelField name="ЧатАктивныйДатаИВремя" id="424">
+											<DataPath>ЧатАктивный.ДатаИВремя</DataPath>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<VerticalAlign>Bottom</VerticalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<HeaderHorizontalAlign>Right</HeaderHorizontalAlign>
+											<FooterHorizontalAlign>Right</FooterHorizontalAlign>
+											<HorizontalStretch>true</HorizontalStretch>
+											<VerticalStretch>true</VerticalStretch>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ДФ='dd.MM ЧЧ:мм'</v8:content>
+												</v8:item>
+											</Format>
+											<TextColor>style:BorderColor</TextColor>
+											<Font ref="style:NormalTextFont" height="8" kind="StyleItem" scale="100"/>
+											<ContextMenu name="ЧатАктивныйДатаИВремяКонтекстноеМеню" id="425"/>
+											<ExtendedTooltip name="ЧатАктивныйДатаИВремяРасширеннаяПодсказка" id="426"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Ответ" id="33">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ответ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ответ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОтветРасширеннаяПодсказка" id="34"/>
+							<ChildItems>
+								<CommandBar name="КомандыОтвета" id="108">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды ответа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды ответа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<Height>2</Height>
+									<HorizontalStretch>false</HorizontalStretch>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<ExtendedTooltip name="КомандыОтветаРасширеннаяПодсказка" id="109"/>
+									<ChildItems>
+										<Popup name="МенюДействий" id="110">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content> Меню</v8:content>
+												</v8:item>
+											</Title>
+											<TitleTextColor>style:FormTextColor</TitleTextColor>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Меню действий</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<Picture>
+												<xr:Ref>CommonPicture.Меню</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<Representation>PictureAndText</Representation>
+											<ShapeRepresentation>None</ShapeRepresentation>
+											<BackColor>style:FormBackColor</BackColor>
+											<BorderColor>style:FormBackColor</BorderColor>
+											<ExtendedTooltip name="МенюДействийРасширеннаяПодсказка" id="111"/>
+											<ChildItems>
+												<Button name="ОтправитьФайл" id="79">
+													<Type>CommandBarButton</Type>
+													<Representation>Picture</Representation>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<AutoMaxHeight>false</AutoMaxHeight>
+													<VerticalStretch>true</VerticalStretch>
+													<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+													<GroupVerticalAlign>Center</GroupVerticalAlign>
+													<CommandName>Form.Command.ЧатОтправитьФайл</CommandName>
+													<Picture>
+														<xr:Ref>CommonPicture.Вложение</xr:Ref>
+														<xr:LoadTransparent>true</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Отправить файл</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+													<Shape>Oval</Shape>
+													<ShapeRepresentation>None</ShapeRepresentation>
+													<ExtendedTooltip name="ОтправитьФайлРасширеннаяПодсказка" id="80"/>
+												</Button>
+												<Popup name="НаправитьНа" id="112">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Направить на</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Направить на</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="НаправитьНаРасширеннаяПодсказка" id="113"/>
+													<ChildItems>
+														<Button name="Перенаправить" id="146">
+															<Type>CommandBarButton</Type>
+															<Visible>false</Visible>
+															<CommandName>Form.Command.ЧатПеренаправить</CommandName>
+															<ExtendedTooltip name="ПеренаправитьРасширеннаяПодсказка" id="147"/>
+														</Button>
+													</ChildItems>
+												</Popup>
+											</ChildItems>
+										</Popup>
+									</ChildItems>
+								</CommandBar>
+								<InputField name="НовоеСообщение" id="1">
+									<DataPath>НовоеСообщение</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>2</Height>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<MultiLine>false</MultiLine>
+									<EditTextUpdate>OnValueChange</EditTextUpdate>
+									<BackColor>web:White</BackColor>
+									<BorderColor>style:FieldSelectedTextColor</BorderColor>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Напишите сообщение...</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НовоеСообщениеКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="НовоеСообщениеРасширеннаяПодсказка" id="3"/>
+								</InputField>
+								<Button name="Отправить" id="29">
+									<Type>UsualButton</Type>
+									<Representation>Picture</Representation>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<CommandName>Form.Command.ЧатОтправитьСообщение</CommandName>
+									<Font ref="style:NormalTextFont" height="16" kind="StyleItem" scale="100"/>
+									<Picture>
+										<xr:Ref>CommonPicture.Отправить</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отправить сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<Shape>Oval</Shape>
+									<ShapeRepresentation>None</ShapeRepresentation>
+									<ExtendedTooltip name="ОтправитьРасширеннаяПодсказка" id="30"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НовоеСообщение" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новое сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыбранныйЧат" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранный чат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.bot_ea_Чаты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Пользователь" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыбранныйБот" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранный бот</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.bot_ea_Боты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЧатыАктивные" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты активные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КонтактноеЛицо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Контрагент" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аватар" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аватар</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НовыхСообщений" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новых сообщений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.bot_ea_Чаты</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ЧатыЗаблокированные" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты заблокированные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КонтактноеЛицо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Контрагент" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аватар" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аватар</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НовыхСообщений" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новых сообщений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.bot_ea_Чаты</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ЧатыАрхивные" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты архивные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КонтактноеЛицо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контактное лицо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Контрагент" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагент</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аватар" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аватар</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НовыхСообщений" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Новых сообщений</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Ссылка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.bot_ea_Чаты</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ЧатАктивный" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат активный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ВидСообщения" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид сообщения</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Автор" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автор</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Сообщение" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаИВремя" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата и время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПрисоединенныйФайл" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Присоединенный файл</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Файлы</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Справка" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ЧатАктивныйАвтор</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ЧатАктивныйСообщение</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ЧатАктивныйФайл</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ЧатАктивныйДатаИВремя</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ЧатАктивный.ВидСообщения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#64B5F6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#DCDCDC</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ЧатАктивныйАвтор</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">ЧатАктивный.ВидСообщения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#64B5F6</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветТекста</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#DCDCDC</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ЧатОтправитьСообщение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат отправить сообщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сообщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатОтправитьСообщение</Action>
+		</Command>
+		<Command name="ЧатСоздатьСобытие" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат создать событие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат создать событие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатСоздатьСобытие</Action>
+		</Command>
+		<Command name="ЧатОтправитьФайл" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат отправить файл</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат отправить файл</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатОтправитьФайл</Action>
+		</Command>
+		<Command name="ЧатыСоздатьЧат" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты создать чат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты создать чат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыСоздатьЧат</Action>
+		</Command>
+		<Command name="ЧатПеренаправить" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат перенаправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат перенаправить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатПеренаправить</Action>
+		</Command>
+		<Command name="ЧатПоместитьВАрхив" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат поместить в архив</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чат поместить в архив</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатПоместитьВАрхив</Action>
+		</Command>
+		<Command name="ЧатыПоместитьВАрхив" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты поместить в архив</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты поместить в архив</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыПоместитьВАрхив</Action>
+		</Command>
+		<Command name="ЧатыЗаблокировать" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты заблокировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты заблокировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыЗаблокировать</Action>
+		</Command>
+		<Command name="ЧатыРазблокировать" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты разблокировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты разблокировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыРазблокировать</Action>
+		</Command>
+		<Command name="ЧатыВернутьИзАрхива" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты вернуть из архива</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты вернуть из архива</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыВернутьИзАрхива</Action>
+		</Command>
+		<Command name="ЧатыОбновитьАктивные" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить активные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить активные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыОбновитьАктивные</Action>
+		</Command>
+		<Command name="ЧатыОбновитьАрхивные" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить архивные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить архивные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыОбновитьАрхивные</Action>
+		</Command>
+		<Command name="ЧатыОбновитьЗаблокированные" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить заблокированные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты обновить заблокированные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыОбновитьЗаблокированные</Action>
+		</Command>
+		<Command name="ЧатыОткрытьСправку" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты открыть справку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Чаты открыть справку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЧатыОткрытьСправку</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="Пользователь">
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="Чат">
+			<Type>
+				<v8:Type>cfg:CatalogRef.bot_ea_Чаты</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>
